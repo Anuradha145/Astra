@@ -255,3 +255,8 @@ fixtures = [
         }
     }
 ]
+doc_events = {
+    "Sales Partner": {
+        "after_insert": "astra.events.sales_partner.after_insert_customer"
+    }
+}
